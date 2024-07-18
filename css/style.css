@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: transparent;
+    width: 100%;
+}
+
+header p {
+    margin: 0 60px;
+    font-size: 35px;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    margin: 0 30px;
+}
+
+header ul li a {
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    color: white !important;
+    letter-spacing: 1.5px;
+}
+
+header .navbar-text {
+    padding: 0 50px;
+    fill: white !important;
+}
+
+header .navbar-text svg {
+    margin: 0 30px !important;
+}
+
+header .headerCont1 {
+    height: 100vh;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/61dbf74b4e8da975a808dcff/550c91bd-4577-454f-ae54-789fc48ba4e5/Farmer-silhouette-sun-ray-rice-terrace-Bali-Indonesia.JPG);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header .headerCont1 svg {
+    padding: 0 27px;
+    fill: white;
+    background-color: gray;
+    border-radius: 80%;
+}
+
+header .headerCont1 .svg {
+    content: " ";
+    position: absolute;
+    width: 2px;
+    height: 35%;
+    margin-top: 1%;
+    background: radial-gradient(circle at 10% 20%, rgb(116, 100, 49) 0.1%, rgb(116, 100, 49) 90%);
+    border-radius: 82%;
+    /* top: 0; */
+    left: 50%;
+    margin-left: -3px;
+}
+
+header .p1 {
+    color: white;
+    font-size: 23px;
+    padding-top: 40%;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+header h2 {
+    color: white;
+    font-size: 83px;
+    font-weight: 650;
+    -webkit-text-decoration: italic;
+    text-decoration: italic;
+    padding-top: 2%;
+    font-family: Serif;
+    letter-spacing: 0.2em;
+}
+
+.sec1 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9))), url(../img/photo_2024-06-26_11-54-34.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/photo_2024-06-26_11-54-34.jpg);
+    height: 200vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px;
+}
+
+.sec1 h2 {
+    color: rgb(171, 142, 68);
+    text-decoration: underline;
+    letter-spacing: 0.2em;
+}
+
+.sec1 p {
+    color: white;
+    font-weight: 650;
+    padding-top: 2%;
+    font-family: Serif;
+}
+
+.sec1 .img01 {
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+.sec1 .svg {
+    content: " ";
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    margin-top: 1%;
+    background: radial-gradient(circle at 10% 20%, rgb(116, 100, 49) 0.1%, rgb(116, 100, 49) 90%);
+    border-radius: 82%;
+    /* top: 0; */
+    left: 50%;
+    margin-left: -3px;
+}
+
+.sec1 .p1 {
+    color: darkgrey;
+}
+
+.sec1 .btn {
+    background-color: transparent;
+    color: #746431;
+    padding: 25px 25px;
+    margin-top: 5%;
+    border: 2px solid #746431;
+}
+
+.sec2 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9))), url(../img/photo_2024-06-26_11-54-34.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/photo_2024-06-26_11-54-34.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec2 img {
+    width: 130%;
+    margin-top: 40%;
+}
+
+h2 {
+    color: #000;
+}
